@@ -1,0 +1,14 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del estylodel navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+**********************************************************************************/
+/* = Global */
+
+/* IMPORTAR CSS RESET */
+@import url(reset.css);
+
+/* IMPORTAR COMPOSICION DE LA PAGINA WEB */
+@import url(estylo_login.css);

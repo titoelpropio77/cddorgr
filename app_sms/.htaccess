@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /pruebas/api/  
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|images|robots\.txt|css|docs|js|system)
+RewriteRule ^(.*)$ /cdd/app_sms/index.php?/$1 [L]

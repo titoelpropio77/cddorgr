@@ -1,0 +1,291 @@
+/* Main settings */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.blue{
+	color:#0095db !important;
+}
+
+.boldDark{
+	color:#444444 !important;
+	font-weight:bold !important;
+}
+
+a.link:link {color:#0095db;}   
+a.link:visited {color:#0095db;}
+a.link:hover {color:#333333;}
+a.link:active {color:#0095db;}
+
+/* Main info window */
+.infoDiv{
+	margin:0px !important;
+	padding:0px !important;
+	font-family:Arial !important;
+	font-size:12px !important;
+	background-color:#e8e8e8 !important;
+	background-color:rgba(232, 232, 232, .9) !important;
+	padding:14px !important;
+	padding-top:8px !important;
+	padding-bottom:8px !important;
+	line-height:18px !important;
+	border-radius:16px 16px 16px 16px !important;
+	text-align:justify !important;
+	color:#585858 !important;
+}
+
+.largeLabel{
+	margin:0px !important;
+	padding:0px !important;
+	font-size:14px !important;
+	color:#0095db !important;
+	margin-top:5px !important;
+	margin-bottom:5px !important;
+}
+
+.leftImage{
+	margin:0px !important;
+	padding:0px !important;
+	float:left !important;
+	margin-right:10px !important;
+	margin-top:4px !important;
+}
+
+.separator{
+	margin:0px !important;
+	padding:0px !important;
+	clear:both !important;
+	height:2px !important;
+	background-color:#FFFFFF !important;
+	margin-top:15px !important;
+	margin-bottom:15px !important;
+}
+
+.columns p{
+	float:left !important;
+	width:30%;
+	margin-bottom:15px !important;
+}
+
+div  .columnsFirstParagraph{
+	margin-right:5%;
+}
+
+div .columnsLastParagraph{
+	float:right !important;
+}
+
+.columnsSeparator{
+	margin:0px !important;
+	padding:0px !important;
+	clear:both !important;
+	height:2px !important;
+	background-color:#FFFFFF !important;
+	margin-top:15px !important;
+	margin-bottom:15px !important;
+}
+
+.rightImage{
+	margin:0px !important;
+	padding:0px !important;
+	float:right !important;
+	margin-left:10px !important;
+	margin-top:4px !important;
+}
+
+.youtubeVideo{
+	margin:0px !important;
+	padding:0px !important;
+	float:left !important;
+	width:60%;
+	height:306px !important;
+	margin-right:10px !important;
+	margin-top:5px !important;
+	border-style:solid !important;
+	border-width:2px !important;
+	border-color:#FFFFFF !important;
+}
+
+.lastParagraph{
+	margin:0px !important;
+	padding:0px !important;
+	margin-bottom:5px !important;
+}
+
+/* Marker tool tip windows*/
+.groenlandToolTipInfoDiv{
+	margin:0px !important;
+	padding:0px !important;
+	font-family:Arial !important;
+	font-size:12px !important;
+	text-align:justify !important;
+	background-color:#d1cfcf !important;
+	padding:8px !important;
+	padding-bottom:4px !important;
+	line-height:18px !important;
+	border-radius:16px 16px 16px 16px !important;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#8f8d8d !important;
+	color:#585858 !important;
+	width:202px;
+}
+
+.groenland1Image{
+	margin:0px !important;
+	padding:0px !important;
+	float:left !important;
+	margin-right:8px !important;
+}
+
+.groenland2Image{
+	margin:0px !important;
+	padding:0px !important;
+	margin-top:-2px !important;
+}
+
+.groenland1P{
+	margin:0px !important;
+	padding:0px !important;
+	text-align:left !important;
+}
+
+.groenland2P{
+	margin:0px !important;
+	padding:0px !important;
+	margin:8px !important;
+	margin-top:8px !important;
+	margin-bottom:6px !important;
+	margin-left:2px !important;
+	clear:both !important;
+}
+
+.africaToolTipInfoDiv{
+	margin:0px !important;
+	padding:0px !important;
+	position:relative !important;
+	font-family:Arial !important;
+	font-size:12px !important;
+	text-align:justify !important;
+	background-color:#d1cfcf !important;
+	padding:8px !important;
+	padding-bottom:4px !important;
+	line-height:18px !important;
+	border-radius:16px 16px 16px 16px !important;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#8f8d8d !important;
+	color:#585858 !important;
+}
+
+.africaP{
+	margin:0px !important;
+	padding:0px !important;
+	position:absolute !important;
+	text-align:left !important;
+	left:12px !important;
+	top:157px !important;
+	width:90px !important;
+}
+
+.australiaToolTipInfoDiv{
+	margin:0px !important;
+	padding:0px !important;
+	position:relative !important;
+	font-family:Arial !important;
+	font-size:12px !important;
+	text-align:justify !important;
+	background-color:#d1cfcf !important;
+	padding:8px !important;
+	line-height:18px !important;
+	border-radius:16px 16px 16px 16px !important;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#8f8d8d !important;
+	color:#585858 !important;
+	width:270px  !important;
+}
+
+.australiaP{
+	margin:0px !important;
+	padding:0px !important;
+	margin-left:2px !important;
+	margin-right:6px !important;
+}
+
+.islandToolTipInfoDiv{
+	margin:0px !important;
+	padding:0px !important;
+	position:relative !important;
+	font-family:Arial !important;
+	font-size:12px !important;
+	text-align:justify !important;
+	background-color:#d1cfcf !important;
+	padding:8px !important;
+	line-height:18px !important;
+	border-radius:16px 16px 16px 16px !important;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#8f8d8d !important;
+	color:#585858 !important;
+	width:186px;
+}
+
+.islandP{
+	margin:0px !important;
+	padding:0px !important;
+	margin-left:2px !important;
+	margin-right:4px !important;
+}
+
+.youtubeVideo2{
+	margin:0px !important;
+	padding:0px !important;
+	width:99%;
+	height:180px !important;
+	margin-left:-1px !important;
+	border-style:solid !important;
+	border-width:2px !important;
+	border-color:#FFFFFF !important;
+}
+
+/* Global classes */
+.dark{
+	color:#333333 !important;
+}
+
+.firstP{
+	margin-top:15px !important;
+}
+
+.middleP{
+	margin-top:10px !important;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+	.youtubeVideo{
+		margin:0px !important;
+		padding:0px !important;
+		width:100%;
+		clear:both !important;
+	}
+	
+	.lastParagraph{
+		margin:0px !important;
+		padding:0px !important;
+		clear:both !important;
+		margin-bottom:10px !important;
+		padding-top:10px !important;
+	}
+	
+	.columns, .columnsSeparator{
+		margin:0px !important;
+		padding:0px !important;
+		display:none !important;
+	}
+
+	
+}

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|recursos|panel|clases|config|robots\.txt)
+#RewriteRule ^(.*)$ /cdd_mlm/afiliados/index.php/$1 [L]
+RewriteRule ^(.*)$ /afiliados/index.php/$1 [L]

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>JavaScript Bs_Tree example 4</title>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/examples/data1.inc.js"></script>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Array.class.js"></script>
+</head>
+<body>
+
+<h1>JavaScript Bs_Tree example 4</h1>
+
+tree similar to example 1. the special things here are:
+<ul>
+  <li>using selfmade icons. this is done by just setting another image dir. the images in this new dir are all named the same way.</li>
+  <li>you don't see lines because the line-images in this dir are empty.</li>
+  <li>this example does not draw the tree into a div after the page loaded (with an onLoad code) as most other examples do it). Though this way of doing it is not recommended.</li>
+</ul>
+<hr>
+<br>
+
+<script>
+t = new Bs_Tree();
+t.imageDir          = '/_bsJavascript/components/tree/img/bobby/blue/';
+t.useFolderIcon     = false;
+t.useCheckboxSystem = false;
+t.initByArray(a);
+t.draw();
+</script>
+
+</body>
+</html>

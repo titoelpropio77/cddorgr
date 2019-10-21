@@ -1,0 +1,331 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del estylodel navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+**********************************************************************************/
+/* = estylo css */
+body{
+	background:#D6D6D6;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+.contenedor{
+	width:96%;
+	height:auto;
+	background:#FFF;
+	margin: 0 auto;
+	min-width:980px;
+}
+.top{
+	width:100%;
+	height:65px;
+	float:left;
+	position:relative;
+	background:#D6D6D6;
+}
+.top .logoTop{
+	float:left;
+	position:absolute;
+	top:0px;
+	left:60px;
+}
+/* usuarios */
+.usuario{
+	width:275px;
+	height:60px;
+	float:right;
+	text-align:left;
+	font-size:12px;
+}
+.usuario .usuarioIzq{
+	float:left;
+	width:38px;
+	height:60px;
+	background:url(../imagenes/admin_04.gif) 0 0 no-repeat;
+}
+.usuario .usuarioCent{
+	float:left;
+	width:226px;
+	height:60px;
+	background:url(../imagenes/admin_05.gif) 0 0 repeat-x;
+}
+.usuario .usuarioDer{
+	float:right;
+	width:11px;
+	height:60px;
+	background:url(../imagenes/admin_07.gif) 0 0 no-repeat;
+}
+.usuario .usuarioEspacio{
+	display:block;
+	padding:5px 10px 0px 10px; 
+	color: #333;  
+}
+.usuario .usuarioFoto{
+	width:46px;
+	height:46px;
+	overflow:hidden;
+	border:2px solid #fff; 
+	float:left;
+	margin:0 15px 0 0; 
+	background:#f1f1f1; 
+}
+.usuario .usuarioCent{
+	float:left;
+	color:#D6D6D6;
+}
+.usuario .usuarioCent h4{
+	color:#666;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	margin:0px 0px 5px 0px 
+}
+.usuario .usuarioCent a{
+	display:block;
+	padding:3px 0px 3px 0px;
+	color:#f00;
+}
+.usuario .usuarioCent a:hover{
+	color:#FFF;
+}
+/* cuerpo */
+.cuerpo{
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:left;
+}
+.cuerpoTop{
+	width:100%;
+	float:left;
+	height:10px;
+	background: #D6D6D6 url(../imagenes/admin_14.jpg) 0 0 repeat-x;
+}
+.cuerpoTop .cuerpoTopIzq{
+	float:left;
+	width:13px;
+	height:10px;
+	background:url(../imagenes/admin_13.gif) 0 0 no-repeat;
+}
+.cuerpoTop .cuerpoTopDer{
+	float:right;
+	width:13px;
+	height:10px;
+	background:url(../imagenes/admin_18.gif) 0 0 no-repeat;
+}
+
+.fondo{
+	float:left;
+	width:100%;
+	height:auto;
+	background: #FFF url(../imagenes/admin_30.gif) 0 0 repeat-x;
+}
+.fondo2{
+	width:100%;
+	float:left;
+	background:url(../imagenes/fondoInf.gif) bottom repeat-x;
+}
+.fondoEspacio{
+	float:left;
+	display:block;
+	padding:10px;
+}
+.contenido{
+	width:77.5%;
+	height:auto;
+	float:left;
+	margin:0px 0px 0px 0.5%;
+}
+.iframeContenido{
+	width:100%;
+	height:455px;
+	background-color: transparent;
+	border:0;
+	padding:0;
+	margin:0;
+}
+/* menu modulo */ 
+.menuModulo{
+	float:left;
+	width:20%;
+	height:auto;
+	margin:0px 0px 10px 1%;
+	min-width:200px;
+}
+.menuModulo .menuTop{
+	width:100%;
+	height:30px;
+	background:url(../imagenes/admin_22.gif) 0 0 repeat-x;
+}
+.menuModulo .menuTopIzq{
+	float:left;
+	width:12px;
+	height:30px;
+	background:url(../imagenes/admin_20.gif) 0 0 no-repeat;
+}
+.menuModulo .menuTopCent{
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	float:left;
+	width:92%;
+	height:24px;
+	padding:6px 0 0 0;
+}
+.menuModulo .menuMod{
+	float:left;
+	width:100%;
+	height:auto;
+	min-height:420px;
+	background:#C1D9CD;
+}
+.menuModulo .menuInf{
+	width:100%;
+	height:12px;
+	float:left;
+	background:#C1D9CD;
+}
+.menuModulo .menuInfDer{
+	width:12px;
+	height:12px;
+	float:right;
+	background:url(../imagenes/admin_40.gif) 0 0 no-repeat;
+}
+/* menu accordion */
+.menuAccordion{
+	float:left;
+	width:100%;
+}
+
+/* menu Categorias */
+a.mLink1{
+	color:#f0dfde;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	height:30px;
+	position:relative;
+	background-image:url(../imagenes/menu_01.gif);
+	overflow:hidden;
+}
+a.mLink1:hover{
+	color:#ffc143;
+}
+a.mLink1 span{
+	float:left;
+	padding:8px 0px 0px 35px;
+}
+a.mLink1 .iconMas{
+	position:absolute;
+	top:7px;
+	left:10px;
+}
+
+/* menu Categorias Activo */
+a.mLink1Activo{
+	color:#fdfffe;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	height:30px;
+	position:relative;
+	background-image:url(../imagenes/menu_01.gif);
+	overflow:hidden;
+}
+a.mLink1Activo span{
+	float:left;
+	padding:8px 0px 0px 35px;
+}
+a.mLink1Activo .iconMas{
+	position:absolute;
+	top:7px;
+	left:10px;
+}
+/* menu subcategorias */
+.menuAccordion .menuNivel1 li{
+	height:auto;
+}
+a.mLinkSubCat{
+	color:#444;
+	display:block;
+	font-size:12px;
+	border-bottom:1px dashed #9cbc6a;
+	padding:5px 0 5px 30px;
+	background: #b9dd80 url(../imagenes/menu_sub.png) 12px 5px no-repeat;
+}
+a.mLinkSubCat:hover, a.mLinkSubCatActivo{
+	color:#000;
+	background: #f9e48c url(../imagenes/menu_sub2.png) 12px 5px no-repeat;
+	border-bottom:1px dashed #bf5900;
+}
+a.mLinkSubCatRep{
+	color:#444;
+	display:block;
+	font-size:12px;
+	border-bottom:1px dashed #9cbc6a;
+	padding:5px 0 5px 30px;
+	background: #b9dd80 url(../imagenes/reporte_line.png) 12px 5px no-repeat;
+}
+a.mLinkSubCatRep:hover, a.mLinkSubCatActivoRep{
+	color:#000;
+	background: #f9e48c url(../imagenes/reporte_line.png) 12px 5px no-repeat;
+	border-bottom:1px dashed #bf5900;
+}
+
+/* inferior */
+.inferior{
+	float:left;
+	width:100%;
+	height:30px;
+	background:#00642C;
+}
+.inferior .inferiorIzq{
+	width:14px;
+	height:30px;
+	float:left;
+	background:url(../imagenes/admin_43.gif) 0 0 no-repeat;
+}
+.inferior .inferiorCent{
+	color:#FFF;
+	font-size:12px;
+	text-align:center;
+	width:95%;
+	float:left;
+	padding:9px 0 0 0;
+}
+.inferior .inferiorDer{
+	width:14px;
+	height:30px;
+	float:right;
+	background:url(../imagenes/admin_47.gif) 0 0 no-repeat;
+}
+/* */
+#txt_con_gestion{
+	color: #666;
+}
+.tipo_cambio{
+	color: #666; 
+	text-align: right; 
+	font-size: 12px; 
+	padding-right: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px; 
+}
+.tipo_cambio_msj{
+	color: #666; 
+	background: #f9e48c;
+	display: inline-block;
+	padding: 2px 5px; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}

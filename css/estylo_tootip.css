@@ -1,0 +1,93 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del estylodel navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+**********************************************************************************/
+/* = tootip  css */
+.tootip{
+	position:absolute;
+	width:250px;
+	height:auto;
+	float:left;
+	z-index:100;
+}
+
+/* superior */
+.tootip .tootipSup{
+	float:left;
+	width:100%;
+	height:5px;
+}
+.tootip .toolSupIzq, .tootip .toolSupDer{
+	width:5px;
+	height:5px;
+}
+.tootip .toolSupIzq{
+	float:left;
+	background:url(../imagenes/tootip_04.png) 0 0 no-repeat;
+}
+
+.tootip .toolSupDer{
+	float:right;
+	background:url(../imagenes/tootip_07.png) 0 0 no-repeat;
+}
+/* cent Superior y inferior */
+.tootip .toolSupCent, .tootip .toolInfCent{
+	float:left;
+	width:240px;
+	height:5px;
+	position:relative;
+	background:url(../imagenes/tootip_05.png) 0 0 repeat-x;
+}
+.tootip .tooFijar{
+	float:left;
+	width:15px;
+	height:10px;
+	position:absolute;
+	top:-10px;
+	left:15px;
+	background:url(../imagenes/tootip_02.png) 0 0 no-repeat;
+}
+/* centro contenido  */
+.tootip .toolContenido{
+	color:#fff;
+	text-align:left;
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../imagenes/tootip_05.png);
+}
+.tootip .toolContenido b{
+	font-size:13px;
+	color:#f8dc5a;
+}
+.tootip .toolEspacio{
+	display:block;
+	padding:4px 10px 4px 10px;
+}
+.tootip .toolContenido img{
+	border:3px solid #82d5ff;
+	margin:0px 10px 5px 0px;
+	float:left;
+}
+/* inferior */
+.tootip .toolInfIzq, .tootip .toolInfDer{
+	width:5px;
+	height:5px;
+}
+.tootip  .tootipInf{
+	width:100%;
+	height:5px;
+	float:left;
+}
+.tootip .toolInfIzq{
+	float:left;
+	background:url(../imagenes/tootip_10.png) 0 no-repeat;
+}
+.tootip .toolInfDer{
+	float:right;
+	background:url(../imagenes/tootip_12.png) 0 no-repeat;
+}
+

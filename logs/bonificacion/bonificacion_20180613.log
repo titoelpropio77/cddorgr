@@ -1,0 +1,15 @@
+[2018-06-13 17:56:12.000000 127.0.0.1  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-06-13 17:56:12.000000 127.0.0.1  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2027-12-01' and pdo_fecha_fin>='2027-12-01' and pdo_eliminado='No'
+[2018-06-13 17:56:12.000000 127.0.0.1  - ERROR ] No existe el periodo de la fecha proporcionada(01/12/2027).
+[2018-06-13 17:56:12.000000 127.0.0.1  - TRACKING ] RASTRO:0
+[2018-06-13 17:56:12.000000 127.0.0.1  - INFO ] FIN: 'Procesar Bonificacion'.
+[2018-06-13 17:58:15.000000 127.0.0.1  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-06-13 17:58:15.000000 127.0.0.1  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2027-12-01' and pdo_fecha_fin>='2027-12-01' and pdo_eliminado='No'
+[2018-06-13 17:58:15.000000 127.0.0.1  - ERROR ] No existe el periodo de la fecha proporcionada(01/12/2027).
+[2018-06-13 17:58:15.000000 127.0.0.1  - TRACKING ] RASTRO:0
+[2018-06-13 17:58:15.000000 127.0.0.1  - INFO ] FIN: 'Procesar Bonificacion'.
+[2018-06-13 18:00:39.000000 127.0.0.1  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-06-13 18:00:39.000000 127.0.0.1  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2027-12-01' and pdo_fecha_fin>='2027-12-01' and pdo_eliminado='No'
+[2018-06-13 18:00:39.000000 127.0.0.1  - ERROR ] No existe el periodo de la fecha proporcionada(01/12/2027).
+[2018-06-13 18:00:39.000000 127.0.0.1  - TRACKING ] RASTRO:0
+[2018-06-13 18:00:39.000000 127.0.0.1  - INFO ] FIN: 'Procesar Bonificacion'.

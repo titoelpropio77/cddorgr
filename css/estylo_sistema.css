@@ -1,0 +1,1219 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+
+**********************************************************************************/
+/* =Composicion */
+body {
+	background-image:url(../imagenes/inicio_01.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#4b85ad;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	position:relative;
+}
+/**** contenedor ****/
+.contenedor{
+	width:980px;
+	height:auto;
+	margin:0 auto;
+}
+/**** top version ****/
+.version{
+	float:left;
+	width:980px;
+	height:29px;
+	position:relative;
+	text-align:left;
+	background-image:url(../imagenes/inicio_06.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.version .ayuda{
+	color:#383838;
+	width:345px;
+	height:22px;
+	float:left;
+	position:relative;
+	padding:7px 0px 0px 0px;
+	background-image:url(../imagenes/inicio_03.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.version .ayuda a{
+	color:#50a0c9;
+	text-decoration:none;
+}
+.version .ayuda a:hover{
+	color:#1c6991;
+}
+.version .curva{
+	width:13px;
+	height:29px;
+	float:left;
+}
+.usuario .idiomas{
+	position:absolute;
+	top:42px;
+	left:165px;
+}
+.version .salir{
+	position:absolute;
+	top:13px;
+	left:885px;
+}
+.version .salir a{
+	color:#035294;
+	text-decoration:none;
+}
+.version .salir a:hover{
+	color:#ff0000;
+	text-decoration:none;
+}
+/**** sesion colapsable ****/
+.sesion{
+	width:980px;
+	height:85px;
+	float:left;
+	overflow:hidden;
+	background-image:url(../imagenes/inicio_08.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	position:relative;
+}
+.sesion .logo{
+	position:absolute;
+	top:10px;
+	left:33px;
+}
+
+/* caja class "usuario" desactivo */
+.usuarioDesactico{
+	width:300px;
+	height:82px;
+	position:absolute;
+	background-image:url(../imagenes/inicio_11_2.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+	top:0px;
+	left:673px;
+}
+.usuarioDesactico .izquierda{
+	width:5px;
+	height:82px;
+	float:left;
+	background-image:url(../imagenes/inicio_10_2.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+.usuarioDesactico .centro{
+	width:280px;
+	float:left;
+	text-align:left;
+	overflow:hidden;
+}
+.usuarioDesactico .centro .foto{
+	width:63px;
+	height:63px;
+	overflow:hidden;
+	margin:6px 0 0 5px;
+	border:4px solid #99c1e2;
+	background-color:#FFF;
+	float:left;
+}
+.usuarioDesactico .centro .texto{
+	color:#fff;
+	float:left;
+	padding:10px 0px 0px 10px;
+}
+.usuarioDesactico .centro .texto a{
+	text-decoration:none;
+	color:#65b3da;
+}
+.usuarioDesactico .derecha{
+	width:5px;
+	height:82px;
+	float:right;
+	background-image:url(../imagenes/inicio_13_2.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+/* caja class usuario activo */
+.usuario{
+	width:300px;
+	height:82px;
+	position:absolute;
+	background-image:url(../imagenes/inicio_11.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+	top:0px;
+	left:673px;
+}
+.usuario .izquierda{
+	width:5px;
+	height:82px;
+	float:left;
+	background-image:url(../imagenes/inicio_10.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+.usuario .centro{
+	width:280px;
+	float:left;
+	text-align:left;
+	overflow:hidden;
+}
+.usuario .centro .foto{
+	width:63px;
+	height:63px;
+	overflow:hidden;
+	margin:6px 0 0 5px;
+	border:4px solid #ccc;
+	float:left;
+}
+.usuario .centro .texto{
+	color:#5a5a5a;
+	float:left;
+	padding:10px 0px 0px 10px;
+}
+.usuario .centro .texto a{
+	text-decoration:none;
+	color:#035294;
+}
+.usuario .derecha{
+	width:5px;
+	height:82px;
+	float:right;
+	background-image:url(../imagenes/inicio_13.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+/* class boton colapzar */
+.bColapzarSesion{
+	width:31px;
+	height:17px;
+	float:left;
+	position:absolute;
+	top:-17px;
+	left:475px;
+	cursor:pointer;
+	background-image:url(../imagenes/btColapzarSesion1.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.bColapzarSesionActivo{
+	width:31px;
+	height:17px;
+	float:left;
+	position:absolute;
+	top:-17px;
+	left:475px;
+	cursor:pointer;
+	background-image:url(../imagenes/btColapzarSesion2.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+/**** hijos ****/
+.hijos{
+	float:left;
+	text-align:left;
+	width:980px;
+	height:0px;
+	position:relative;
+	background-image:url(../imagenes/inicio_20.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.hijos .espacio{
+	width:820px;
+	height:60px;
+	float:left;
+	margin:5px 0px 0px 80px;
+	position:relative;
+}
+
+/* class hijo desactivo */
+.hijoDesactivo{
+	width:200px;
+	height:60px;
+	float:left;
+	cursor:pointer;
+	margin:0px 0px 0px 1px;
+	background-image:url(../imagenes/inicio_29.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.hijoDesactivo .izq{
+	width:6px;
+	height:60px;
+	float:left;
+	background-image:url(../imagenes/inicio_28.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+.hijoDesactivo .cent{
+	width:185px;
+	height:60px;
+	float:left;
+}
+.hijoDesactivo .foto{
+	width:45px;
+	height:45px;
+	overflow:hidden;
+	border:3px solid #99c1e2;
+	margin: 5px 0px 0px 2px;
+	float:left;
+}
+.hijoDesactivo .text{
+	width:125px;
+	color:#015eac;
+	margin:7px 0px 0px 5px;
+	/*position:relative;*/
+	float:left;
+}
+.hijoDesactivo .text span{
+	/* display:block; */
+	color:#000;
+	padding:3px 0px 3px 0px;
+}
+.hijoDesactivo .der{
+	width:6px;
+	height:60px;
+	float:right;
+	background-image:url(../imagenes/inicio_32.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+/* class hijo activo */
+.hijoActivo{
+	color:#F00;
+	width:200px;
+	height:60px;
+	float:left;
+	cursor:pointer;
+	margin:0px 0px 0px 1px;
+	background-image:url(../imagenes/inicio_24.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.hijoActivo .izq{
+	width:6px;
+	height:60px;
+	float:left;
+	background-image:url(../imagenes/inicio_23.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+.hijoActivo .cent{
+	width:185px;
+	height:60px;
+	float:left;
+}
+.hijoActivo .foto{
+	width:45px;
+	height:45px;
+	overflow:hidden;
+	border:3px solid #c5e0ee;
+	margin: 5px 0px 0px 2px;
+	float:left;
+}
+.hijoActivo .text{
+	width:125px;
+	color:#FFF;
+	margin:7px 0px 0px 5px;
+	/* position:relative; */
+	float:left;
+}
+.hijoActivo .text span{
+	display:block;
+	color:#65b3da;
+	padding:3px 0px 3px 0px;
+}
+.hijoActivo .der{
+	width:6px;
+	height:60px;
+	float:right;
+	background-image:url(../imagenes/inicio_26.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+/* slider hijos ok*/
+
+#sliderHijos{}	
+#sliderHijos ul, #sliderHijos li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#sliderHijos li{ 
+	width:820px;
+	height:60px;
+	overflow:hidden;
+}
+#btHijoAtras, #btHijoSiguiente{ 
+	display:block;
+	width:31px;
+	height:31px;
+	position:absolute;
+	left:-40px;
+	top:16px;
+}	
+#btHijoSiguiente{ 
+	left:820px;
+}														
+#btHijoAtras a, #btHijoSiguiente a{  
+	display:block;
+	width:31px;
+	height:31px;
+	background:url(../imagenes/inicio_35.gif) no-repeat 0 0;
+}	
+#btHijoSiguiente a{ 
+	background:url(../imagenes/inicio_38.gif) no-repeat 0 0;	
+}	
+
+/* menu opciones padres y hijos */
+.menuOpciones{
+	width:980px;
+	height:68px;
+	float:left;
+	position:relative;
+	background-color:#006fb8;
+}
+.menuOpciones .izquierda{
+	width:9px;
+	height:87px;
+	position:absolute;
+	top:-8px;
+	left:-5px;
+	background-image:url(../imagenes/adorno_01.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuOpciones .derecha{
+	width:9px;
+	height:87px;
+	position:absolute;
+	top:-8px;
+	left:976px;
+	background-image:url(../imagenes/adorno_03.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuOpciones .espacio{
+	width:930px;
+	height:68px;
+	margin: 0px 0px 0px 45px;
+}
+/* menu y icon */
+.menuOpcDesactivo{
+	color:#82d5ff;
+	width:110px;
+	height:58px;
+	margin:0px 2px 0px 2px;
+	padding:10px 0px 0px 0px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+	position:relative;
+}
+.menuOpcDesactivo:hover{
+	color:#FFF;
+}
+.menuOpcDesactivo .borde1{
+	display:none;
+}
+.menuOpcDesactivo .borde2{
+	display:none;
+}
+.menuOpcActivo{
+	color:#fff;
+	text-align:center;
+	width:110px;
+	height:58px;
+	background-color:#024277;
+	margin:0px 2px 0px 2px;
+	padding:10px 0px 0px 0px;
+	float:left;
+	cursor:pointer;
+	position:relative;
+}
+.menuOpcActivo .borde1{
+	display:block;
+	width:1px;
+	height:68px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-image:url(../imagenes/inicio_48.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuOpcActivo .borde2{
+	display:block;
+	width:1px;
+	height:68px;
+	position:absolute;
+	top:0px;
+	left:109px;
+	background-image:url(../imagenes/inicio_48.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuOpcActivo .fecha{
+	width:14px;
+	height:8px;
+	position:absolute;
+	top:60px;
+	left:48px;
+	background-image:url(../imagenes/inicio_51.gif);
+	background-position:top;
+	overflow:hidden;
+}
+/**** Cuerpo *****/
+.cuerpo{
+	clear:both;
+	width:980px;
+	height:auto;
+	float:left;
+	text-align:left;
+    position:relative;
+	background-color:#FFF;
+	
+	
+}
+.cuerpo .menuModulos{
+	width:200px;
+	height:655px;
+	float:left;
+	overflow:auto;
+	overflow:hidden;
+	position:relative;
+	background-image:url(../imagenes/inicio_88.gif);
+	background-repeat:repeat-y;
+	background-color:#efe457;
+}
+/* menu modulos desactivo */
+.menuModDesactivo{
+	color:#484543;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	font-size:12px;
+	width:200px;
+	height:47px;
+	float:left;
+	cursor:pointer;
+	position:relative;
+	background-image:url(../imagenes/inicio_78.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuModDesactivo:hover{
+	font-size:11px;
+	font-weight:bold;
+	color:#000;
+}
+.menuModDesactivo img{
+	position:absolute;
+	top:6px;
+	left:11px;
+}
+.menuModDesactivo .texto{
+	position:absolute;
+	top:22px;
+	left:60px;
+}
+
+/* menu modulos activo */
+.menuModActivo{
+	width:200px;
+	height:47px;
+	float:left;
+	cursor:pointer;
+	position:relative;
+	background-image:url(../imagenes/inicio_77.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.menuModActivo img{
+	position:absolute;
+	top:6px;
+	left:11px;
+}
+.menuModActivo .texto{
+	color:#484543;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	position:absolute;
+	top:22px;
+	left:60px;
+}
+/* boton de colapzar menu modulos */ 
+.btColapzarModulo{
+	width:7px;
+	height:655px;
+	float:left;
+	cursor:pointer;
+	background-image:url(../imagenes/iconColapVertial2.gif);
+	background-repeat:no-repeat;
+	background-position:0px 50%;
+}
+.btColapzarModulo2{
+	width:7px;
+	float:left;
+	cursor:pointer;
+	background-image:url(../imagenes/iconColapVertial1.gif);
+	background-repeat:no-repeat;
+	background-position:0px 50%;
+}
+.btColapzarModuloHover{
+	background-color:#CCC;
+}
+/* cuerpo contenedor y comluma 1y2 49.5% */
+.cuerpo .contenido{
+	width:770px;
+	height:655px;
+	float:left;
+	position:relative;
+}
+.cuerpo .columna01{
+	width:48%;
+	height:auto;
+	float:left;
+	margin-left:1.5%;
+	position:relative;
+}
+/**** CAJAS ****/
+.grupCajas{
+	display:block;
+	height:auto;
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+/* parte superior de la caja */
+.grupCajas .super{
+	display:block;
+	width:100%;
+	height:35px;
+	float:left;
+	background-image:url(../imagenes/inicio_60.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.grupCajas .superIzq{
+	width:5px;
+	height:35px;
+	float:left;
+	position:relative;
+	background-image:url(../imagenes/inicio_59.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.grupCajas .iconModulo{
+	width:25px;
+	height:25px;
+	overflow:hidden;
+	position:absolute;
+	top:5px;
+	left:7px;
+}
+.grupCajas .iconAyuda{
+	width:24px;
+	height:24px;
+	overflow:hidden;
+	position:absolute;
+	top:5px;
+	left:-25px;
+}
+.grupCajas .superDer{
+	width:5px;
+	height:35px;
+	float:right;
+	position:relative;
+	background-image:url(../imagenes/inicio_63.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.grupCajas .superCent{
+	width:80%;
+	height:27px;
+	float:left;
+	padding:8px 0px 0px 35px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+}
+/* Centro */
+.grupCajas .cont{
+	display:block;
+	width:100%;
+	float:left;
+	background-color:#FFF;
+	background-image:url(../imagenes/inicio_74.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.grupCajas .contBorde1{
+	width:1px;
+	height:275px;
+	background-color:#c7c7c7;
+	position:relative;
+	float:left;
+}
+.grupCajas .contBorde2{
+	width:1px;
+	height:275px;
+	background-color:#c7c7c7;
+	position:relative;
+	float:right;
+}
+
+.grupCajas .contContenedor{
+	display:block;
+	width:96%;
+	height:260px; /* definir el alto de las cajas */
+	padding:5px 0px 10px 10px;
+	float:left;
+	position:relative;
+}
+
+/* parte inferior */
+.grupCajas .infe{
+	width:100%;
+	height:3px;
+	float:left;
+	background-image:url(../imagenes/inicio_82.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.grupCajas .infeIzq{
+	width:3px;
+	height:3px;
+	float:left;
+	background-image:url(../imagenes/inicio_81.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.grupCajas .infeDer{
+	width:3px;
+	height:3px;
+	float:right;
+	background-image:url(../imagenes/inicio_85.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+/**** class inferior ****/
+.inferior{
+	width:980px;
+	height:15px;
+	padding:5px 0px 5px 0px;
+	float:left;
+	text-align:center;
+	background-color:#035294;
+}
+.inferior a.infLink {
+	color:#82d5ff;
+	font-size:12px;
+	text-decoration:none;
+}
+.inferior a.infLink:hover{
+	text-decoration:underline;
+}
+.inferior span{
+	font-size:11px;
+	color:#FFF;
+}
+
+/*************************** CSS AREAS Y MODULOS **************************/
+.servicios{
+	color:#656565;
+	width:98%;
+	height:70px;
+	margin:5px 0px 0px 0px;
+	border-bottom:1px dashed #999;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+.servicios:hover{
+	background-color:#e3e3e3;
+}
+.servicios .imgIcon{
+	width:50px;
+	height:50px;
+	float:left;
+	overflow:hidden;
+	border:0;
+	margin:5px 10px 5px 0px;
+}
+.servicios .imgMas{
+	margin:5px 0px 0px 5px;
+	border:0;
+}
+.servicios b{
+	display:block;
+	margin:0px;
+	padding:0px;
+	color:#035294;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.servicios span{
+	display:block;
+	color:#069ff9;
+	padding:3px 0px 3px 0px; 
+}
+/**** Paginacion ****/
+.paginacion{
+	width:98%;
+	height:30px;
+	float:left;
+	position:relative;
+	margin-top:10px;
+}
+.paginacion a.link{
+	color:#035294;
+	display:block;
+	height:15px;
+	padding:5px 5px 0px 5px;
+	text-align:center;
+	text-decoration:none;
+	float:left;
+}
+.paginacion a.link:hover{
+	color:#FFF;
+	background-color:#198dcb;
+}
+/* link activo */
+.paginacion a.linkActivo{
+	color:#fff;
+	display:block;
+	height:15px;
+	padding:5px 5px 0px 5px;
+	background-color:#198dcb;
+	text-align:center;
+	text-decoration:none;
+	float:left;
+}
+/* link atras */
+.paginacion a.linkAtras{
+	display:block;
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	text-decoration:none;
+	background-image:url(../imagenes/iconPaginacion.gif);
+	background-repeat:repeat-y;
+	background-position:0px 40px;
+	float:left;
+}
+.paginacion a.linkAtras:hover{
+	background-image:url(../imagenes/iconPaginacion.gif);
+	background-repeat:repeat-y;
+	background-position:0px 20px;
+
+}
+/* link siguiente */
+.paginacion a.linkSiguiente{
+	display:block;
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	text-decoration:none;
+	margin-left:2px;
+	background-image:url(../imagenes/iconPaginacion.gif);
+	background-repeat:repeat-y;
+	background-position:0px 0px;
+	float:left;
+}
+.paginacion a.linkSiguiente:hover{
+	background-image:url(../imagenes/iconPaginacion.gif);
+	background-repeat:repeat-y;
+	background-position:0px 60px;
+	
+}
+
+/**** class Avisos ****/
+.avisos{
+	width:100%;
+	float:left;
+}
+.tablaAvisos{
+	width:100%;
+	color:#555555;
+	font-size:12px;
+	text-align:left;
+}
+/* cabecera thead */
+.tablaAvisos thead tr{
+	background-color:#dcdcdc;
+}
+.tablaAvisos thead th{
+	color:#000;
+	font-weight:bold;
+	font-size:13px;
+	padding:4px 0px 4px 10px;
+	border-left:1px solid #fff;
+}
+
+.tablaAvisos thead .checkbox{
+	width:8%;
+}
+.tablaAvisos thead .fecha{
+	width:20%;
+}
+.tablaAvisos thead .titulo{
+	width:55%;
+}
+.tablaAvisos thead .prioridad{
+	width:17%;
+}
+/* filas */
+.tablaAvisos tbody tr td{
+	vertical-align:middle;
+	padding:2px 0px 2px 0px;
+	border-left:1px solid #e9e9e9;
+}
+.tablaAvisos tbody .tbClases td{
+	text-align:center;
+}
+.tablaAvisos tbody tr .fondoColumna{
+	background:#e9e9e9;
+}
+.tablaAvisos tbody .fecha{
+	color:#0161b0;
+}
+.tablaAvisos tbody .titulo{
+	padding-left:3px;
+}
+.tablaAvisos tbody .imagen{
+	text-align:center;
+}
+/* estado filas */
+.tablaAvisos tbody .sinLeer td{
+	font-weight:bold;
+}
+.tablaAvisos tfoot tr{
+}
+.tablaAvisos tfoot .tbInferior{
+	position:relative;
+	padding:5px 0px 0px 5px;
+}
+.tablaAvisos tbody .seleccionar, .tablaAvisos tbody tr:hover, .tablaAvisos tbody td:hover{
+	background-color:#ffe981;
+}
+/* extras avisos */
+.tablaAvisos .tdEspacio{
+	float:left;
+	position:relative;
+}
+
+/* class filas inpares */
+.tablaAvisosFilas2{
+	background-color:#e9e9e9;
+}
+/* fondo cabecera */
+.tbCabecera{
+	width:100%;
+	height:35px;
+	float:left;
+	position:relative;
+	margin:10px 0px 0px 0px;
+	overflow:hidden;
+	background:url(../imagenes/fondoCabeceratb_01.gif) 0 0 repeat-x;
+}
+.tbCabecera span{
+	color:#005a95;
+	font-size:14px;
+	display:block;
+	padding:12px 0px 0px 20px;
+}
+/* link CLASE NOMBRE */
+.tablaAvisos .tdCleseNombre a{
+	color:#555555;
+	text-align:left;
+	cursor:pointer;
+	display:block;
+	padding:0px 0px 2px 30px;
+	background:url(../imagenes/iconAlumno.png) 5px -2px no-repeat;
+}
+.tablaAvisos .tdCleseNombre a:hover{
+	color:#000;
+}
+
+.priodBanderas{
+	font-size:12px;
+	position:absolute;
+	top:-5px;
+	left:180px;
+	width:180px;
+	height:36px;
+	float:right;
+}
+.priodBanderas .iconTexto{
+	color:#575757;
+	width:45px;
+	height:36px;
+	float:left;
+	text-align:center;
+}
+a.linkOpciones{
+	color:#82d5ff;
+	font-size:12px;
+	float:left;
+	display:block;
+	height:15px;
+	text-decoration:none;
+	margin:0px 0px 0px 3px;
+	padding:3px 5px 3px 5px;
+	background-color:#025da9;
+	border:1px solid #82d5ff;
+}
+a.linkOpciones:hover{
+	color:#FFF;
+	background-color:#198dcb;
+}
+/****  class agenda ****/
+.agenda{
+	width:100%;
+	float:left;
+}
+
+.agenda .caja1{
+	width:25%;
+	float:left;
+}
+.agenda .caja2{
+	width:75%;
+	float:right;
+	min-width:260px;
+}
+
+.agenda .lista{
+	display:block;
+	width:95%;
+	float:left;
+	height:50px;
+	border-bottom:1px dashed #ccc;
+	margin:2px 0px 2px 0px;
+	padding-left:10px;
+}
+.agenda .lista:hover{
+	background-color:#e3e3e3;
+}
+.agenda .lista .titulo{
+	font-size:12px;
+	display:block;
+	color:#666;
+}
+.agenda .lista .fecha{
+	display:block;
+	color:#069ff9;
+}
+.agenda .lista .categoria{
+	display:block;
+	color:#035294;
+}
+/* link agenda  */ 
+a.linkAge{
+	color:#035294;
+	text-align:left;
+	text-decoration:none;
+	display:block;
+	padding:5px 0px 5px 0px;
+	border:1px solid #fff;
+}
+a.linkAge:hover, a.linkAgeActivo{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	padding:5px 0px 5px 0px;
+	background-color:#025eab;
+	border:1px solid #82d5ff;
+}
+/****************** ventana box ******************/
+/* bloquear ventana */
+.boxBloquearVentana{
+	display:none;
+	width:100%;
+	height:1024px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:499;
+	background:#000;
+	
+	opacity: 0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5
+}
+/* box */ 
+.box{
+	display:none;
+	text-align:left;
+	width:600px;
+	height:550px;
+	position:absolute;
+	top:150px;
+	left:500px;
+	z-index:500;
+}
+/* superior */
+.box .boxSupCurva{
+	width:600px;
+	height:10px;
+	float:left;
+	overflow:hidden;
+}
+.box .boxSupCurvaIzq{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_01.png) 0 0 no-repeat;
+}
+.box .boxSupCurvaCentro{
+	width:580px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_02.png) 0 0 repeat-x;
+}
+.box .boxSupCurvaDer{
+	width:10px;
+	height:10px;
+	float:right;
+	background:url(../imagenes/popupVentana_04.png) 0 0 no-repeat;
+}
+
+/* cuerpo */
+.boxCuerpo{
+	width:600px;
+	height:auto;
+	float:left;
+}
+.box .boxCuerpoIzq{
+	width:10px;
+	height:530px;
+	float:left;
+	background:url(../imagenes/popupVentana_02.png) 0 0;
+}
+.box .boxCuerpoCentro{
+	width:580px;
+	height:530px;
+	float:left;
+	background:#FFF;
+}
+.box .boxCuerpoDer{
+	width:10px;
+	height:530px;
+	float:right;
+	background:url(../imagenes/popupVentana_02.png) 0 0;
+}
+
+/* inferior */
+.box .boxInfCurva{
+	width:600px;
+	height:10px;
+	float:left;
+	overflow:hidden;
+}
+.box .boxInfCurvaIzq{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_07.png) 0 0 no-repeat;
+}
+.box .boxInfCurvaCentro{
+	width:580px;
+	height:10px;
+	float:left;
+	background-color:#03C;
+	background:url(../imagenes/popupVentana_02.png);
+}
+.box .boxInfCurvaDer{
+	width:10px;
+	height:10px;
+	float:right;
+	background:url(../imagenes/popupVentana_09.png) 0 0 no-repeat;
+}
+
+/**** contenidos ****/
+.box .boxTitulo{
+	width:100%;
+	height:32px;
+	float:left;
+	position:relative;
+	background:url(../imagenes/inicio_60.gif) repeat-x bottom;
+}
+.box .boxTitulo h3{
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:normal;
+	font-size:16px;
+	margin:0;
+	padding:5px 0px 0px 15px;
+}
+.box .boxCerrar{
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:2px;
+	left:550px;
+}
+.box .boxCerrar a{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../imagenes/popupVentanaCerrar.gif) 0 0 no-repeat;
+}
+.box .boxCerrar a:hover{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../imagenes/popupVentanaCerrar2.gif) 0 0 no-repeat;
+}
+
+.box .boxMenu{
+	width:100%;
+	height:24px;
+	float:left;
+	background:#ddd;
+	padding-top:10px;
+	border-bottom:1px solid #c7c7c7;
+}
+.box .boxMenuInf{
+	width:100%;
+	height:30px;
+	float:left;
+	background:#ddd;
+	padding:6px 0px 0px 0px;
+	border-top:1px solid #c7c7c7;
+}
+.box .boxContenido{
+	width:100%;
+	height:425px;
+	float:left;
+	background:url(../imagenes/inicio_74.gif) repeat-x bottom;
+}
+
+/* link box superior */
+a.linkMenuBox{
+	float:left;
+	text-align:center;
+	color:#035294;
+	display:block;
+	width:80px;
+	height:17px;
+	padding-top:3px;
+	border-right:1px dotted #035294;
+}
+a.linkMenuBox:hover{
+	font-weight:bold;
+	text-decoration:underline;
+}

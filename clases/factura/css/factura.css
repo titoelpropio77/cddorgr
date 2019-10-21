@@ -1,0 +1,44 @@
+.fac_contenedor {
+	clear:both; 
+/* 	width: 679.50px; */
+	width: 321.3px;
+	font-family: Helvetica !important;
+	font-size: 4px !important;
+/* 	float: left; */
+}
+
+.fac_reporte_izquierdo {
+/* 	float: left;  */
+/* 	width: 47.25%;  */
+	width: 322px; 
+/* 	border: 1px solid; */
+	float: left;
+/* 	font-size: 4px !important; */
+}
+
+.fac_reporte_derecho {
+	float: right; 
+	width: 47.25%; 
+/* 	border: 1px solid; */
+}
+
+hr{ 
+	height: 0px !important; 
+	text-align:left !important;
+	border-top:0px !important;
+	border-bottom:#848484 dashed 2px !important;
+}
+
+.fac_div_central_rerpote {
+	margin: 0 auto; 
+	width: 5.5%;
+}
+
+table tr td {
+	font-size: 10px !important;
+	font-family: Helvetica !important;
+}
+
+table tr th {
+	font-size: 10px !important;	
+}

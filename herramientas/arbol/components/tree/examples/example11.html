@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>JavaScript Bs_Tree example 11</title>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Misc.lib.js"></script>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Array.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/checkbox/Bs_Checkbox.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/examples/data1.inc.js"></script>
+
+<script>
+function init() {
+  myTree = new Bs_Tree();
+  myTree.useCheckboxSystem      = true;
+  myTree.checkboxSystemWalkTree = 3;
+  myTree.initByArray(a);
+  myTree.drawInto('treeDiv1');
+}
+
+var collectedTreeData;
+
+function treeClear() {
+	collectedTreeData = new Array();
+	collectTreeInfo();
+	treeCloseAll();
+	alert("Tree has been closed, all checkboxes are unchecked, and the status has been saved in the 'collectedTreeData' array. You could now send this data in a form post to the server, and re-init the tree in the next page using that saved information. Click the open button.");
+}
+
+function collectTreeInfo(treeElm) {
+	if (typeof(treeElm) == 'undefined') treeElm = myTree._pseudoElement;
+	for (var i=0; i<treeElm._children.length; i++) {
+		collectedTreeData[treeElm._children[i].id] = new Array();
+		collectedTreeData[treeElm._children[i].id]['isChecked'] = treeElm._children[i].isChecked;
+		collectedTreeData[treeElm._children[i].id]['isOpen']    = treeElm._children[i].isOpen;
+		treeElm._children[i].setCheckboxValue(0, false, false);
+		collectTreeInfo(treeElm._children[i]);
+  }
+}
+
+function treeCloseAll() {
+	myTree.elementCloseWalkDown();
+}
+
+function treeReOpen(treeElm) {
+	if (typeof(collectedTreeData) == 'undefined') return;
+	
+	if (typeof(treeElm) == 'undefined') treeElm = myTree._pseudoElement;
+	for (var i=0; i<treeElm._children.length; i++) {
+		treeElm._children[i].setCheckboxValue(collectedTreeData[treeElm._children[i].id]['isChecked'], false, false);
+		if (collectedTreeData[treeElm._children[i].id]['isOpen']) treeElm._children[i].open();
+		treeReOpen(treeElm._children[i]);
+  }
+}
+
+</script>
+
+</head>
+
+<body onLoad="init();">
+
+<h1>JavaScript Bs_Tree example 11</h1>
+
+Tree similar to example 3. the special things here are:
+<ul>
+  <li>Shows how the tree status (checkbox values, open nodes) can be fetched and how these settings can be applied to the tree again.</li>
+	<li>Push the 'clear' button to see it.</li>
+</ul>
+<hr>
+<br>
+
+<input type="button" name="x" value="clear" onclick="treeClear();"><br><br>
+<input type="button" name="y" value="open" onclick="treeReOpen();"><br><br>
+
+<div id="treeDiv1"></div>
+<br>
+
+</body>
+</html>

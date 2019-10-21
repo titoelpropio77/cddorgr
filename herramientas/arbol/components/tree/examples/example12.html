@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>JavaScript Bs_Tree example 12</title>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Array.class.js"></script>
+<script>
+function init() {
+  t = new Bs_Tree();
+  t.lookAhead = 1; //set to -1 to see how long it takes to load everything from the start.
+  var a = createRandomData(1);
+  t.initByArray(a);
+  t.drawInto('treeDiv1');
+  alert('There are a total of ' + totalElements + ' elements in the tree.');
+}
+
+var totalElements = 0;
+function createRandomData(callNumber) {
+  var mathRnd  = Math.random();
+  var myRnd    = parseInt(mathRnd.toString().substr(2, 2)); // 0-99
+  var mathRnd2 = Math.random();
+  var myRnd2   = parseInt(mathRnd2.toString().substr(2, 2) /10); // 0-9
+  if ((callNumber == 1) && (myRnd2 == 0)) myRnd2 = 3;
+  
+  //make chance smaller to have many kids to limit the total tree size a bit:
+  if (callNumber > 2) {
+    myRnd2 = myRnd2 / 2;
+  }
+  
+  var a = new Array;
+  for (var i=0; i<myRnd2; i++) {
+    a[i] = new Array;
+    var childrenLength = 0;
+    if ((callNumber == 1) || (myRnd > 50)) { //only 50% chance to have children at all.
+      if (callNumber < 10) { //limit to 10 levels deep.
+        a[i]['children'] = createRandomData(callNumber +1);
+        childrenLength = a[i]['children'].length;
+      }
+    }
+    a[i]['caption'] = 'foo ' + (i +1) + '_' + childrenLength;
+    totalElements++;
+  }
+  return a;
+}
+</script>
+
+</head>
+
+<body onLoad="init();">
+
+<h1>JavaScript Bs_Tree example 12</h1>
+
+Similar to example 1, but:
+<ul>
+  <li>Generates a tree of about 10 to 2000 nodes, randomly.</li>
+  <li>Demonstrates the lookAhead feature. If it is set to -1 (render everything right from the start) the tree takes much longer to load.</li>
+</ul>
+<hr>
+<br>
+
+<div id="treeDiv1"></div>
+
+</body>
+</html>

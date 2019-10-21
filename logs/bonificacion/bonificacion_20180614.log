@@ -1,0 +1,6 @@
+[2018-06-14 09:46:00.000000 127.0.0.1  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-06-14 09:46:00.000000 127.0.0.1  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2017-12-01' and pdo_fecha_fin>='2017-12-01' and pdo_eliminado='No'
+[2018-06-14 09:46:00.000000 127.0.0.1  - SQL-SCRIPT ] insert into comision_periodo(pdo_id,pdo_usu_cre,pdo_fecha_cre)         values('48','cron','2017-12-01')
+[2018-06-14 09:53:27.000000 127.0.0.1  - INFO ] 88 comisiones generadas para el periodo Diciembre.
+[2018-06-14 09:53:27.000000 127.0.0.1  - TRACKING ] RASTRO:0-1-4
+[2018-06-14 09:53:27.000000 127.0.0.1  - INFO ] FIN: 'Procesar Bonificacion'.

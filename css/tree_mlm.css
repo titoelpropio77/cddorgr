@@ -1,0 +1,51 @@
+.tree_mlm{
+    list-style: none; margin: 0;padding: 0; position: relative;
+}
+.tree_mlm li{
+    float: left; position: relative; 
+}
+.tree_mlm ul{
+    float: left; list-style: none; margin: 0;padding: 0;margin-left:-33px;position:relative;
+}
+.box_node{
+    float: left; width: 33px;position: relative;
+}
+.box_node .label_node{
+    width: 33px; height: 33px; overflow: hidden;padding: 0px;margin: 0px;background-color: #fff;line-height: 8px; font-family: arial;text-align: center;background-color: #fff;
+}
+.box_node .label_node .id_node{
+    padding: 0;margin: 0;font-size: 9px;  
+}
+.box_node .label_node .nombre_node{
+    padding: 0;margin: 0 2px;font-size: 9px; width: 29px; float: left;overflow: hidden;background-color: #fff;
+}
+.tree_mlm .img_node{
+    height: 33px; width: 33px; float: left;
+}
+.icon_less:hover,.icon_more:hover{opacity: 0.7}
+.tree_mlm .box_node .icon_more{
+    background-image: url("images_mlm/icon_more.png");  width: 12px;height: 12px;position: absolute; bottom: 33px; right: 0; cursor: pointer;
+}
+.tree_mlm .box_node .icon_less{
+    background-image: url("images_mlm/icon_less.png");  width: 12px;height: 12px;position: absolute; bottom: 33px; right: 0; cursor: pointer;
+}
+
+.tree_mlm .box_node .img_node_linev{
+    background-image: url("images_mlm/linev.png");
+}
+.tree_mlm .box_node .img_node_lineh{
+    background-image: url("images_mlm/lineh.png");
+}
+.tree_mlm .box_node .img_node_lineth{
+    background-image: url("images_mlm/lineth.png");
+}
+.tree_mlm .box_node .img_node_linetv{
+    background-image: url("images_mlm/linetv.png");
+}
+.tree_mlm .box_node .img_node_linec{
+    background-image: url("images_mlm/linec.png");
+}
+
+.tree_mlm .box_node .img_node_person{
+    background-image: url("images_mlm/person.png"); cursor: pointer;
+}

@@ -1,0 +1,206 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+
+**********************************************************************************/
+/* =Composicion */
+body {
+	background-image:url(../imagenes/iniciarSesion_01.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#60C094;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/**** iniciar sesion ****/
+#seContenedor{
+	width:600px;
+	height:313px;
+	margin: 0 auto;
+	padding:130px 0px 0px 0px;
+	position:relative;
+	background-image:url(../imagenes/iniciarSesion_08.gif);
+	background-repeat:repeat-x;
+	background-position:0 130px;
+}
+/* superior */
+.superior{
+	width:600px;
+	height:47px;
+}
+.superiorIzq{
+	width:14px;
+	height:47px;
+	float:left;
+	background-image:url(../imagenes/iniciarSesion_04.gif);
+	background-position:top;
+	overflow:hidden;
+}
+.superiorCentro{
+	width:430px;
+	height:47px;
+	float:left;
+	position:relative;
+	background-image:url(../imagenes/iniciarSesion_05.gif);
+	background-repeat:repeat-x;
+}
+.superiorIcon{
+	width:30px;
+	height:31px;
+	overflow:hidden;
+	position:absolute;
+	top:2px;
+	left:7px;	
+}
+.superiortTitulo{
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	position:absolute;
+	top:9px;
+	left:44px;
+}
+.superiorVersion{
+	width:110px;
+	color:#FFF;
+	font-size:13px;
+	position:absolute;
+	top:18px;
+	left:460px;
+}
+.superiorCentroDer{
+	width:33px;
+	height:47px;
+	float:right;
+	background-image:url(../imagenes/iniciarSesion_07.gif);
+	overflow:hidden;
+}
+.superiorDer{
+	width:13px;
+	height:13px;
+	float:right;
+	margin:34px 0px 0px 0px;
+	background-image:url(../imagenes/iniciarSesion_11.gif);
+	background-position:top;
+	overflow:hidden;
+}
+/* cuerpo */
+.seCuerpo{
+	width:600px;
+	height:254px;
+	float:left;
+	text-align:left;
+	background-color:#FFF;
+	//background-image:url(../imagenes/iniciarSesion_14.gif);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+.seCuerpo .form{
+	width:280px;
+	height:100%;
+	float:left;
+	margin:0px 0px 0px 20px;
+}
+.seCuerpo .espacio{
+	float:left;
+	padding:0px 0px 0px 15px;
+}
+.seCuerpo .texto1{
+	color:#969696;
+	font-size:12px;
+}
+.seCuerpo .titulos{
+	color:#444444;
+	font-size:13px;
+	width:100%;
+	margin:5px 0px 5px 0px;
+}
+.seCuerpo .inp{
+	color:#666;
+	font-size:15px;
+	background-image:url(../imagenes/iniciarSesion_20.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	border:medium none;
+	width:184px;
+	height:27px;
+	padding:3px 8px 0px 8px;
+}
+.seCuerpo .inp:focus{
+	background-image:url(../imagenes/iniciarSesion_23.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.seCuerpo .btEnviar{
+	width:66px;
+	height:25px;
+	position:relative;
+	left:135px;
+	margin:5px 0 0 0;
+}
+.seCuerpo .mensajeError{
+	width:100%;
+	float:left;
+	font-size:12px;
+	color:#F00;
+	padding:5px 0px 5px 0px;
+}
+.seCuerpo .opciones{
+	width:130px;
+	height:50px;
+	float:left;
+	font-size:12px;
+	text-align:center;
+	position:relative;
+}
+.seCuerpo .opciones a{
+	color:#999;
+	text-decoration:none;
+}
+.seCuerpo .opciones a:hover{
+	color:#000;
+}
+.seCuerpo .logo{
+	width:250px;
+	height:100%;
+	position:relative;
+	background-image:url(../imagenes/efectoSombra.png);
+	background-repeat:no-repeat;
+	background-position:0px 50%;
+	float:left;
+}
+.seCuerpo .logoImg{
+	left: 60px;
+    position: absolute;
+    top: 100px; 
+}
+/* inferior */
+.seInferior{
+	width:600px;
+	height:13px;
+	float:left;
+	background-image:url(../imagenes/iniciarSesion_29.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.seInferiorIzq{
+	width:13px;
+	height:13px;
+	float:left;
+}
+.seInferiorDer{
+	width:13px;
+	height:13px;
+	float:right;
+}
+/* copy */
+.seCopy{
+	width:100%;
+	float:left;
+	margin:10px 0 0 0;
+	color:#FFF;
+	font-size:12px;
+}

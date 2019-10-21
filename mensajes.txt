@@ -1,0 +1,39 @@
+<div class="ancho100">
+    <div class="msInformacion limpiar">Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n Este es un mensaje de Informaci&oacute;n </div>
+</div>
+<div class="ancho100">
+    <div class="msCorrecto limpiar">Este es un mensaje OK</div>
+</div>
+<div class="ancho100">
+    <div class="msAlerta limpiar">Este es un mensaje de alerta </div>
+</div>
+<div class="ancho100">
+    <div class="msError limpiar">Este es un mensaje de error
+        <ul class="msLista">
+        	<li>lista error 01</li>
+            <li>lista error 02</li>
+        </ul>
+    </div>
+</div>
+<div class="ancho100">
+    <div class="msLimpieza limpiar">Este es un mensaje de Limpieza</div>
+</div>
+
+<div class="ancho">
+	<h1 class="titulo01">Titulo de Muestra 01</h1>
+    <h2 class="titulo02">Titulo de Muestra 02</h2>
+    <h3 class="titulo03">Titulo de Muestra 03</h3>
+    <h4 class="titulo04">Titulo de Muestra 04</h4>
+</div>
+
+<span class="texto01">
+	Este es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje de informacion es un mensaje
+</span>
+
+<ul class="listaTexto1">
+	<li>Lista u opciones 1</li>
+    <li>Lista u opciones 1</li>
+    <li>Lista u opciones 1</li>
+    <li>Lista u opciones 1</li>
+    <li>Lista u opciones 1</li>
+</ul>

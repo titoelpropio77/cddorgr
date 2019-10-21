@@ -1,0 +1,16 @@
+[2018-08-15 02:00:03.000000 192.185.81.232  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-08-15 02:00:03.000000 192.185.81.232  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2018-08-15' and pdo_fecha_fin>='2018-08-15' and pdo_eliminado='No'
+[2018-08-15 02:00:03.000000 192.185.81.232  - SQL-SCRIPT ] update comision_periodo set pdo_usu_mod='cron',             pdo_fecha_mod='2018-08-15'             where pdo_id = '56'
+[2018-08-15 02:35:44.000000 192.185.81.232  - INFO ] 109 comisiones generadas para el periodo Agosto.
+[2018-08-15 02:35:44.000000 192.185.81.232  - TRACKING ] RASTRO:0-1-2-3
+[2018-08-15 02:35:44.000000 192.185.81.232  - INFO ] FIN: 'Procesar Bonificacion'.
+[2018-08-15 14:00:03.000000 192.185.81.232  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-08-15 14:00:03.000000 192.185.81.232  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2018-08-15' and pdo_fecha_fin>='2018-08-15' and pdo_eliminado='No'
+[2018-08-15 14:00:03.000000 192.185.81.232  - SQL-SCRIPT ] update comision_periodo set pdo_usu_mod='cron',             pdo_fecha_mod='2018-08-15'             where pdo_id = '56'
+[2018-08-15 14:39:56.000000 192.185.81.232  - INFO ] 111 comisiones generadas para el periodo Agosto.
+[2018-08-15 14:39:56.000000 192.185.81.232  - TRACKING ] RASTRO:0-1-2-3
+[2018-08-15 14:39:56.000000 192.185.81.232  - INFO ] FIN: 'Procesar Bonificacion'.
+[2018-08-15 17:47:05.000000 192.223.83.76  - INFO ] INICIO: 'Procesar Bonificacion'.
+[2018-08-15 17:47:05.000000 192.223.83.76  - SQL-SCRIPT ] select * from con_periodo  where pdo_fecha_inicio<='2018-07-31' and pdo_fecha_fin>='2018-07-31' and pdo_eliminado='No'
+[2018-08-15 17:47:05.000000 192.223.83.76  - SQL-SCRIPT ] update comision_periodo set pdo_usu_mod='cron',             pdo_fecha_mod='2018-07-31'             where pdo_id = '55'
+[2018-08-15 18:01:41.000000 192.223.83.76  - INFO ] INICIO: 'Procesar Bonificacion'.

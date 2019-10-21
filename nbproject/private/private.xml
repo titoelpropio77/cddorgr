@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="10">
+        <file>
+            <url>modulos/venta/venta.class.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>1646</line>
+                <key/>
+            </bookmark>
+            <bookmark id="4">
+                <name/>
+                <line>2286</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>2352</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>modulos/venta/venta_cuotas.class.php</url>
+            <bookmark id="7">
+                <name/>
+                <line>1411</line>
+                <key/>
+            </bookmark>
+            <bookmark id="9">
+                <name/>
+                <line>1511</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>4990</line>
+                <key/>
+            </bookmark>
+            <bookmark id="10">
+                <name/>
+                <line>7275</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>modulos/reserva/reserva.class.php</url>
+            <bookmark id="2">
+                <name/>
+                <line>4505</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>modulos/venta/venta_producto.class.php</url>
+            <bookmark id="8">
+                <name/>
+                <line>661</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/cdd/compare/script_cuenta_inventario.php</file>
+            <file>file:/C:/wamp/www/cdd/config/database.conf.php</file>
+            <file>file:/C:/wamp/www/cdd/sqls/importar_ok.php</file>
+            <file>file:/C:/wamp/www/cdd/modulos/venta/venta.class.php</file>
+            <file>file:/C:/wamp/www/cdd/clases/modelo_comprobantes.class.php</file>
+            <file>file:/C:/wamp/www/cdd/clases/funciones.class.php</file>
+            <file>file:/C:/wamp/www/cdd/clases/eventos.class.php</file>
+            <file>file:/C:/wamp/www/cdd/script_cuenta_inventario.php</file>
+        </group>
+    </open-files>
+</project-private>

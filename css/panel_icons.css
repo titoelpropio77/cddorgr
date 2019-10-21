@@ -1,0 +1,56 @@
+.top{
+	height:90px;
+	padding-bottom:10px;
+}
+.top .logoTop{
+	left:0px;
+}
+.icons{
+	position:absolute;
+	top:0px;
+	z-index:2;
+	width:600px;
+}
+.liquid {
+	padding:10px 0;
+}
+.liquid .previous , .liquid .next {
+	background:url(../imagenes/panel_slider.png) 0 0 no-repeat;
+	margin-top:50px;
+	display:block;
+	height:30px;
+	width:19px;
+	margin-top:25px;
+}
+.liquid .previous {
+	float:left;
+}
+.liquid .next {
+	background-position:100% 0;
+	float:right;
+}
+.liquid ul{
+	padding-left:10px;
+}
+.liquid ul li {
+	width:80px;
+	padding:0 10px 0 0;
+	margin:0;
+}
+a.linkIcons{
+	display:block;
+	float:left;
+	width:80px;
+	height:80px;
+	overflow:hidden;
+	position:relative;
+	background:url(../imagenes/panel_iconbg.png) 0 0 no-repeat;
+}
+a.linkIcons:hover{
+	background:url(../imagenes/panel_iconbg.png) 0 100% no-repeat;
+}
+a.linkIcons img{
+	position:absolute;
+	top:10px;
+	left:8px;
+}

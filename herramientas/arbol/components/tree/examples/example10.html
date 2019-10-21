@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>JavaScript Bs_Tree example 1</title>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/examples/data1.inc.js"></script>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Array.class.js"></script>
+<script>
+function init() {
+	//set a different icon path for the 'microsoft' path, and a different icon for the 'blah' leaf:
+	a[1]['imageDir'] = '/_bsJavascript/components/tree/img/win98blue/';
+	a[1]['children'][0]['children'][0]['icon'] = 'html.gif';
+	
+  t = new Bs_Tree();
+  t.initByArray(a);
+  t.drawInto('treeDiv1');
+	
+	//open up the 'microsoft' path and its children:
+	var myArr = new Array('microsoft', 'knowledge base', 'blah');
+	t.openPath(myArr, 'caption');
+}
+</script>
+
+</head>
+
+<body onLoad="init();">
+
+<h1>JavaScript Bs_Tree example 10</h1>
+
+Similar to example 1, in addition:
+<ul>
+  <li>Uses the openPath() feature. the path 'microsoft', 'knowledge base', 'blah' is automatically opened after the tree loaded.</li>
+	<li>Uses a different icon path for the 'microsoft' path. All children automatically use that setting, unless Bs_Tree->walkTree is set to false.</li>
+	<li>Uses a different icon for the 'blah' leaf.</li>
+</ul>
+<hr>
+<br>
+
+<div id="treeDiv1"></div>
+
+</body>
+</html>

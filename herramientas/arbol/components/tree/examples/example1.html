@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>JavaScript Bs_Tree example 1</title>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="/_bsJavascript/components/tree/examples/data1.inc.js"></script>
+<script type="text/javascript" src="/_bsJavascript/core/lang/Bs_Array.class.js"></script>
+<script>
+function init() {
+  t = new Bs_Tree();
+  t.initByArray(a);
+  t.drawInto('treeDiv1');
+}
+</script>
+
+</head>
+
+<body onLoad="init();">
+
+<h1>JavaScript Bs_Tree example 1</h1>
+
+this is a standard tree. the features used here are:
+<ul>
+  <li>links on most nodes, with different targets.</li>
+  <li>using default icons</li>
+  <li>nodes without children are leafs, and thus have another icon. (default behavior)</li>
+</ul>
+<hr>
+<br>
+
+<div id="treeDiv1"></div>
+
+</body>
+</html>

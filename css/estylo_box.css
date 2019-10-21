@@ -1,0 +1,192 @@
+/**********************************************************************************
+
+		Hojas de estylo formateo del estylodel navegados
+		Autor: Isaac Quispe Q. // www.qualitywebsrl.net
+		E-mail: quispeisaac@hotmail.com 
+
+**********************************************************************************/
+/* = box css */
+body{
+	position:relative;
+	text-align:left;
+}
+/****************** ventana box ******************/
+/* bloquear ventana */
+.boxBloquearVentana{
+	display:none;
+	width:100%;
+	height:1024px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:499;
+	background:#000;
+	
+	opacity: 0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5
+}
+/* box */ 
+.box{
+	display:none;
+	text-align:left;
+	width:600px;
+	height:550px;
+	position:absolute;
+	top:150px;
+	left:500px;
+	z-index:500;
+}
+/* superior */
+.box .boxSupCurva{
+	width:600px;
+	height:10px;
+	float:left;
+	overflow:hidden;
+}
+.box .boxSupCurvaIzq{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_01.png) 0 0 no-repeat;
+}
+.box .boxSupCurvaCentro{
+	width:580px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_02.png) 0 0 repeat-x;
+}
+.box .boxSupCurvaDer{
+	width:10px;
+	height:10px;
+	float:right;
+	background:url(../imagenes/popupVentana_04.png) 0 0 no-repeat;
+}
+
+/* cuerpo */
+.boxCuerpo{
+	width:600px;
+	height:auto;
+	float:left;
+}
+.box .boxCuerpoIzq{
+	width:10px;
+	height:530px;
+	float:left;
+	background:url(../imagenes/popupVentana_02.png) 0 0;
+}
+.box .boxCuerpoCentro{
+	width:580px;
+	height:530px;
+	float:left;
+	background:#FFF;
+}
+.box .boxCuerpoDer{
+	width:10px;
+	height:530px;
+	float:right;
+	background:url(../imagenes/popupVentana_02.png) 0 0;
+}
+
+/* inferior */
+.box .boxInfCurva{
+	width:600px;
+	height:10px;
+	float:left;
+	overflow:hidden;
+}
+.box .boxInfCurvaIzq{
+	width:10px;
+	height:10px;
+	float:left;
+	background:url(../imagenes/popupVentana_07.png) 0 0 no-repeat;
+}
+.box .boxInfCurvaCentro{
+	width:580px;
+	height:10px;
+	float:left;
+	background-color:#03C;
+	background:url(../imagenes/popupVentana_02.png);
+}
+.box .boxInfCurvaDer{
+	width:10px;
+	height:10px;
+	float:right;
+	background:url(../imagenes/popupVentana_09.png) 0 0 no-repeat;
+}
+
+/**** contenidos ****/
+.box .boxTitulo{
+	width:100%;
+	height:32px;
+	float:left;
+	position:relative;
+	background:url(../imagenes/inicio_60.gif) repeat-x bottom;
+}
+.box .boxTitulo h3{
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:normal;
+	font-size:16px;
+	margin:0;
+	padding:5px 0px 0px 15px;
+}
+.box .boxCerrar{
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:2px;
+	left:550px;
+}
+.box .boxCerrar a{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../imagenes/popupVentanaCerrar.gif) 0 0 no-repeat;
+}
+.box .boxCerrar a:hover{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../imagenes/popupVentanaCerrar2.gif) 0 0 no-repeat;
+}
+
+.box .boxMenu{
+	width:100%;
+	height:24px;
+	float:left;
+	background:#ddd;
+	padding-top:10px;
+	border-bottom:1px solid #c7c7c7;
+}
+.box .boxMenuInf{
+	width:100%;
+	height:30px;
+	float:left;
+	background:#ddd;
+	padding:6px 0px 0px 0px;
+	border-top:1px solid #c7c7c7;
+}
+.box .boxContenido{
+	width:100%;
+	height:425px;
+	float:left;
+	background:url(../imagenes/inicio_74.gif) repeat-x bottom;
+}
+
+/* link box superior */
+a.linkMenuBox{
+	float:left;
+	text-align:center;
+	color:#035294;
+	display:block;
+	width:80px;
+	height:17px;
+	padding-top:3px;
+	border-right:1px dotted #035294;
+}
+a.linkMenuBox:hover{
+	font-weight:bold;
+	text-decoration:underline;
+}

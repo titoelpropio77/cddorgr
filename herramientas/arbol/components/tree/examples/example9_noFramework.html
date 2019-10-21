@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>JavaScript Bs_Tree example 9</title>
+<script type="text/javascript" src="../../../components/tree/Bs_Tree.class.js"></script>
+<script type="text/javascript" src="../../../components/tree/Bs_TreeElement.class.js"></script>
+<script type="text/javascript" src="../../../components/tree/examples/data1.inc.js"></script>
+<script type="text/javascript" src="../../../core/lang/Bs_Array.class.js"></script>
+<script>
+var draggingElmId;
+
+function bsTreeElmDragStart(elm) {
+	draggingElmId = elm.id;
+}
+
+function bsTreeElmDragEnter(elm) {
+	bsTreeTreatDropable(elm);
+}
+
+function bsTreeElmDragOver(elm) {
+	bsTreeTreatDropable(elm);
+}
+
+function bsTreeTreatDropable(elm) {
+	srcElm = t.getElement(draggingElmId);
+	if (srcElm.isChild(elm.id, true)) {
+		window.event.returnValue = true;
+	} else {
+		window.event.returnValue = false;
+	}
+}
+
+function bsTreeElmDrop(destElm) {
+	if (draggingElmId == '') return false;
+	srcElm  = t.getElement(draggingElmId);
+	arr     = srcElm.exportAsArray(true);
+	t.removeElement(srcElm.id);
+	
+	var e = destElm.addChildByArray(arr);
+	var tmp = new Array(e);
+	makeDragDroppable(tmp);
+}
+
+function makeDragDroppable(arr) {
+	for (var i=0; i<arr.length; i++) {
+		//alert(arr[i].id);
+		arr[i].attachEvent('onDragStart', bsTreeElmDragStart);
+		arr[i].attachEvent('onDragEnter', bsTreeElmDragEnter);
+		arr[i].attachEvent('onDragOver',  bsTreeElmDragOver);
+		arr[i].attachEvent('onDrop',      bsTreeElmDrop);
+		makeDragDroppable(arr[i]._children);
+	}
+}
+
+
+function init() {
+  t = new Bs_Tree();
+  t.imageDir = '../../../components/tree/img/win98/';
+	t.draggable = true;
+  t.initByArray(a);
+	makeDragDroppable(t._pseudoElement._children);
+  t.drawInto('treeDiv1');
+}
+</script>
+
+</head>
+
+<body onLoad="init();">
+
+<h1>JavaScript Bs_Tree example 9</h1>
+
+Like example 1, with drag & drop support.<br>
+Drag a folder or file and drop it on another.<br>
+Note that, like in windows explorer (file manager), you cannot drop a parent to a child. <br>
+This feature is coded for internet explorer only, Sorry. Tt could be done mozilla-compatible.<br>
+<hr>
+<br>
+
+<div id="treeDiv1"></div>
+
+</body>
+</html>

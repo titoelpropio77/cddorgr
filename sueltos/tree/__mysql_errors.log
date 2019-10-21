@@ -1,0 +1,59 @@
+[2013-07-12 21:19:48] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:19:48] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:19:48] No query pending <>
+[2013-07-12 21:19:48] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:19:48] No query pending <>
+[2013-07-12 21:20:04] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:20:04] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:20:04] No query pending <>
+[2013-07-12 21:20:04] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:20:04] No query pending <>
+[2013-07-12 21:20:13] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:20:13] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:20:13] No query pending <>
+[2013-07-12 21:20:13] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:20:13] No query pending <>
+[2013-07-12 21:21:27] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:21:27] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:21:27] No query pending <>
+[2013-07-12 21:21:27] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:21:27] No query pending <>
+[2013-07-12 21:21:49] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:21:49] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:21:49] No query pending <>
+[2013-07-12 21:21:49] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:21:49] No query pending <>
+[2013-07-12 21:22:36] Connection error: Unknown MySQL server host '_SERVIDOR_BASE_DE_DATOS' (2) <>
+[2013-07-12 21:22:36] Could node connect for query: SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:22:36] No query pending <>
+[2013-07-12 21:22:36] SELECT `cue_id` , `cue_padre_id` , `cue_tree_position` , `cue_tree_left` , `cue_tree_right` , `cue_tree_level` , `cue_descripcion` , `cue_tipo`, `cue_codigo` FROM `con_cuenta` WHERE `cue_padre_id` = 1 ORDER BY `cue_tree_position` ASC <>
+[2013-07-12 21:22:36] No query pending <>
+[2013-07-16 21:02:51] No query pending <>
+[2013-07-16 21:02:51] No query pending <>
+[2013-07-17 23:07:32] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:07:33] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:07:33] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:07:33] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:01] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:01] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:01] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:01] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:19] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:19] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:19] SELECT `can_id` , `can_padre_id` , `can_tree_position` , `can_tree_left` , `can_tree_right` , `can_tree_level` , `can_descripcion` , `can_tipo`, `can_codigo` FROM `con_cuenta` WHERE can_ges_id='9' AND `can_padre_id` = 1 ORDER BY `can_tree_position` DESC <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:11:19] No query pending <Unknown column 'can_id' in 'field list'>
+[2013-07-17 23:16:53] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:53] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:53] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:53] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:58] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:58] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:58] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:16:58] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:17:07] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:17:07] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:17:07] SELECT `cco_id` , `cco_padre_id` , `cco_tree_position` , `cco_tree_left` , `cco_tree_right` , `cco_tree_level` , `cco_descripcion` , `cco_tipo`, `cco_codigo` FROM `con_cuenta_ca` WHERE cco_ges_id='9' AND `cco_padre_id` = 1 ORDER BY `cco_tree_position` DESC <Unknown column 'cco_id' in 'field list'>
+[2013-07-17 23:17:07] No query pending <Unknown column 'cco_id' in 'field list'>
+[2013-07-22 19:03:57] INSERT INTO `con_cuenta` (`cue_padre_id`, `cue_tree_position`, `cue_tree_left`, `cue_tree_right`, `cue_tree_level`, `cue_codigo`, `cue_ges_id`,`cue_mon_id`) VALUES (32, 0, 37, 38, 1, '1.11', '1',1') <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '')' at line 1>
+[2013-07-22 19:04:26] INSERT INTO `con_cuenta` (`cue_padre_id`, `cue_tree_position`, `cue_tree_left`, `cue_tree_right`, `cue_tree_level`, `cue_codigo`, `cue_ges_id`,`cue_mon_id`) VALUES (32, 0, 39, 40, 1, '1.00', '1',1') <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '')' at line 1>
+[2013-07-22 19:05:25] INSERT INTO `con_cuenta` (`cue_padre_id`, `cue_tree_position`, `cue_tree_left`, `cue_tree_right`, `cue_tree_level`, `cue_codigo`, `cue_ges_id`,`cue_mon_id`) VALUES (33, 0, 6, 7, 2, '1.00', '1',1') <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '')' at line 1>
